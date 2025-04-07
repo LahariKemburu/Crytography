@@ -1,7 +1,6 @@
 import socket
 from Crypto.Cipher import AES
 from Crypto.Util.Padding import unpad
-import hashlib
 import base64
 # Define AES key and initialization vector (must be 16 bytes for AES-128)
 KEY = b'1234567890abcdef'  # Example 16-byte key

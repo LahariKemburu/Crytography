@@ -1,6 +1,7 @@
 import socket
 from Crypto.Cipher import AES
 from Crypto.Util.Padding import pad
+import random
 import hashlib #takes in input data and produces a statistically unique output
 import base64  #is used to convert bytes that have binary or text data into ASCII characters
 KEY = b'1234567890abcdef'  # 16-byte key
